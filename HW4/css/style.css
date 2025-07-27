@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  font-family: poppins, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+  font-size: 14px;
+}
+
+td,th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:not(:first-child):not(.underline):hover {
+  background-color: #f1f1f1;
+}
+
+.underline {
+  background-color: #dddddd;
+    font-weight: semi-bold;
+    font-size: 16px;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+body {
+  background-color: #ffffff;
+}
+nav {
+  background-color: #3b3883;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+  line-height: 50px; 
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.Head_subject {
+  text-align: center;
+  color: #39379f;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  font-size: 24px;
+}
+
+.Head3_subject {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.Head_profile {
+  font-weight: semi-bold;
+  text-align: center;
+  color: #274a8f;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  font-size: 24px;
+}
+
+
+.image-container {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;        
+  gap: 20px;              
+  margin-top: 5rem;    
+}
+
+.profile_image {
+  width: 300px;            
+  height: 300px;           
+  object-fit: cover;       
+  border-radius: 2rem;  
+}
+
+.span_detail {
+  font-family: poppins, sans-serif;
+  font-weight: bold;
+  color: #4f4e4e;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.p_profile {
+  margin-left: 2rem;
+  color: #555555;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.p_index {
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 30px;
+  font-size: 16px;
+  
+}
+
+.course-info {
+  color: #000000;
+  text-align: left;
+  font-size: 16px;
+  margin-left: 2rem;
+}
+
+.Head_index {
+  text-align: center;
+  color: #4b3a9f;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  font-size: 24px;
+}
+
+.course_image {
+  width: 300px;            
+  height: 300px;     
+  object-fit: cover;
+  margin-top: 2rem;     
+  border-radius: 2rem;       
+}
+
+.underline {
+  background-color: #3c4b90;
+  font-weight: semi-bold;
+  font-size: 16px;
+  color: #ffffff;
+}
