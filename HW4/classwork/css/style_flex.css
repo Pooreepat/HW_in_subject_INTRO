@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    border: 2px solid black;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    
+}
+
+.item {
+    width: 60px;
+    height: 60px;
+    background-color: purple;
+    border: 1px solid black;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
